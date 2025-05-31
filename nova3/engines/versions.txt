@@ -1,3 +1,4 @@
+btdig: 1.2
 eztv: 1.17
 jackett: 4.3
 limetorrents: 4.11
