@@ -120,7 +120,7 @@ class btdig(object):
                 result = {
                     "link": magnet_match.group(1),
                     "name": re.sub(r"<.*?>", "", name_match.group(1)).strip(),
-                    "size": normalize("NFKD", size_match.group(1)), # replace \xa0 with space
+                    "size": normalize("NFKD", size_match.group(1)),   # replace \xa0 with space
                     "engine_url": self.url,
                     "desc_link": self.url + desc_link_match.group(1),
                     "pub_date": age_parser.parse(age_match.group(1)),
